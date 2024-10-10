@@ -142,7 +142,7 @@ To deploy:
 ## Video Demo
 
 - The video demonstration shows the setup process, how to input data into the web interface, and how predictions are made based on model output.
-- **https://drive.google.com/file/d/1BndliCpyx_fXTH1HONldjeTxEjmA2N6V/view?usp=sharing** to demo: [Video Demo Link](#)
+- **LINK** to demo: [https://drive.google.com/file/d/1BndliCpyx_fXTH1HONldjeTxEjmA2N6V/view?usp=sharing](#)
 
 ---
 
