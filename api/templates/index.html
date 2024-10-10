@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plas-tech Gas Output Prediction</title>
+  </head>
+  <body>
+    <h1>Plas-tech Gas Output Prediction</h1>
+
+    <form method="POST">
+      <label for="Plastic_Waste_Input_kg">Plastic Waste Input (kg):</label>
+      <input
+        type="number"
+        step="0.01"
+        name="Plastic_Waste_Input_kg"
+        required
+      /><br /><br />
+
+      <label for="Operating_Cost_USD">Operating Cost (USD):</label>
+      <input
+        type="number"
+        step="0.01"
+        name="Operating_Cost_USD"
+        required
+      /><br /><br />
+
+      <label for="Time_of_Production_minutes"
+        >Time of Production (minutes):</label
+      >
+      <input
+        type="number"
+        step="0.01"
+        name="Time_of_Production_minutes"
+        required
+      /><br /><br />
+
+      <button type="submit">Predict Gas Output</button>
+    </form>
+
+    {% if prediction %}
+    <h2>Predicted Gas Output: {{ prediction }} liters</h2>
+    {% endif %}
+  </body>
+</html>
